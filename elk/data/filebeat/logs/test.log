@@ -1,0 +1,1 @@
+2019-05-27 21:31:56,464 [REQUEST ID:] [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration cn.com.starbucks.reservation.Application for test class cn.com.starbucks.reservation.coupon.CouponApiTest

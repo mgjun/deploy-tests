@@ -1,0 +1,2 @@
+MYSELF \[\S*?\]
+MYDATA [\s\S]*?(?=\[User)

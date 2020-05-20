@@ -1,0 +1,415 @@
+2019-06-01 14:46:29,924 INFO  [main] GoSslSocketConnector:81 - Included ciphers: null
+2019-06-01 14:46:29,936 INFO  [main] GoSslSocketConnector:82 - Excluded ciphers: null
+2019-06-01 14:46:29,937 INFO  [main] GoSslSocketConnector:83 - Included protocols: null
+2019-06-01 14:46:29,938 INFO  [main] GoSslSocketConnector:84 - Excluded protocols: null
+2019-06-01 14:46:29,941 INFO  [main] GoSslSocketConnector:85 - Renegotiation Allowed: true
+2019-06-01 14:46:30,101 INFO  [main] Jetty9Server:211 - Configuring Jetty using /go-working-dir/config/jetty.xml
+2019-06-01 14:46:30,185 INFO  [main] GoServer:93 - Including addons: 
+2019-06-01 14:46:30,187 WARN  [main] Server:352 - ErrorPageMapper not supported for Server level Error Handling
+2019-06-01 14:46:30,399 WARN  [main] config:259 - No Client EndPointIdentificationAlgorithm configured for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,403 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA256 enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,405 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,406 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,407 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,408 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,410 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,411 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,415 WARN  [main] config:279 - Weak cipher suite TLS_DHE_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,416 WARN  [main] config:279 - Weak cipher suite TLS_DHE_DSS_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,417 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA256 enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,418 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,419 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,420 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,421 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,422 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,424 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,425 WARN  [main] config:279 - Weak cipher suite TLS_DHE_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,426 WARN  [main] config:279 - Weak cipher suite TLS_DHE_DSS_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,427 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_GCM_SHA384 enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,429 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_GCM_SHA256 enabled for CustomSslContextFactory@1be2019a[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 14:46:30,465 WARN  [main] AbstractHandler:112 - No Server set for ResourceHandler@2f67a4d3{STOPPED}
+2019-06-01 14:46:39,715 INFO  [main] H2Database:124 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2019-06-01 14:46:39,719 INFO  [main] H2Database:114 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2019-06-01 14:46:39,729 INFO  [main] DbDeployMigration:51 - Upgrading database at org.apache.commons.dbcp2.BasicDataSource@3b97907c. This might take a while depending on the size of the database.
+2019-06-01 14:46:39,738 INFO  [main] DbDeployMigration:60 - ************************************************************************
+2019-06-01 14:46:39,740 INFO  [main] DbDeployMigration:60 - WARNING: Shutting down your server at this point will lead to a database corruption. Please wait until the database upgrade completes.
+2019-06-01 14:46:39,742 INFO  [main] DbDeployMigration:60 - ************************************************************************
+2019-06-01 14:46:39,889 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 14:46:40,617 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 14:46:40,625 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 5%
+2019-06-01 14:46:40,876 INFO  [main] H2EventListener:35 - Database is opened
+2019-06-01 14:46:40,929 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 14:46:41,671 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 14:46:43,635 INFO  [main] Migration_86:94 - migrating 0 rows
+2019-06-01 14:46:44,412 INFO  [main] DbDeployMigration:71 - Database upgrade completed.
+2019-06-01 14:46:44,416 INFO  [main] H2EventListener:78 - Closing database
+2019-06-01 14:46:44,978 INFO  [main] H2Database:124 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2019-06-01 14:46:44,981 INFO  [main] H2Database:114 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2019-06-01 14:46:44,985 INFO  [main] DataMigrationRunner:36 - Running data migrations...
+2019-06-01 14:46:44,991 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 14:46:45,097 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 14:46:45,098 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 14:46:45,128 INFO  [main] H2EventListener:35 - Database is opened
+2019-06-01 14:46:45,133 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 14:46:45,218 INFO  [main] DataMigrationRunner:53 - Data migration took 1 ms
+2019-06-01 14:46:45,223 INFO  [main] DataMigrationRunner:53 - Data migration took 0 ms
+2019-06-01 14:46:45,225 INFO  [main] DataMigrationRunner:43 - Data migrations completed.
+2019-06-01 14:46:47,030 WARN  [main] ConfigurationFactory:136 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-2.10.6.jar!/ehcache-failsafe.xml
+2019-06-01 14:46:47,183 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.AccessToken]; using defaults.
+2019-06-01 14:46:47,262 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2019-06-01 14:46:47,438 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.UsageStatisticsReporting]; using defaults.
+2019-06-01 14:46:47,453 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2019-06-01 14:46:47,472 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.server.domain.DataSharingSettings]; using defaults.
+2019-06-01 14:46:47,514 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2019-06-01 14:46:47,529 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.EnvironmentVariable]; using defaults.
+2019-06-01 14:46:47,616 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2019-06-01 14:46:47,750 WARN  [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2019-06-01 14:46:47,820 WARN  [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2019-06-01 14:46:50,809 INFO  [main] AESCipherProvider:62 - AES cipher not found. Creating a new cipher file
+2019-06-01 14:47:01,486 INFO  [main] GoConfigMigration:94 - Upgrading config file from version 110 to version 123
+2019-06-01 14:47:01,847 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin cd.go.authentication.ldap. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 14:47:01,850 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: cd.go.authentication.ldap - Metadata load info: [{extension='authorization', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.''}]
+2019-06-01 14:47:01,852 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 14:47:02,355 INFO  [main] GoConfigMigration:102 - Finished upgrading config file
+2019-06-01 14:47:02,356 INFO  [main] GoConfigMigrator:108 - [Config Save] Starting Config Save post upgrade using FullConfigSaveNormalFlow
+2019-06-01 14:47:02,768 WARN  [main] ConfigRepository:194 - [CONFIG REPOSITORY] No head exists in the config repository.
+2019-06-01 14:47:03,222 INFO  [main] CachedGoConfig:224 - About to notify config listeners
+2019-06-01 14:47:03,225 INFO  [main] CachedGoConfig:232 - Finished notifying all listeners
+2019-06-01 14:47:03,406 INFO  [main] BuildAssignmentService:291 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2019-06-01 14:47:03,465 INFO  [main] InvalidateAuthenticationOnSecurityConfigChangeFilter:79 - [Configuration Changed] Security Configuration is changed. Updating the last changed time.
+2019-06-01 14:47:03,529 INFO  [main] PipelineRepository:86 - Start updating pipeline timeline
+2019-06-01 14:47:03,608 INFO  [main] PipelineRepository:92 - Pipeline timeline updated
+2019-06-01 14:47:03,609 INFO  [main] PipelineSqlMapDao:143 - Loading active pipelines into memory.
+2019-06-01 14:47:03,611 INFO  [main] PipelineSqlMapDao:411 - Retriving Active Pipelines from Database...
+2019-06-01 14:47:03,634 INFO  [main] PipelineSqlMapDao:145 - Done loading active pipelines into memory.
+2019-06-01 14:47:03,779 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin yum. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 14:47:03,780 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: yum - Metadata load info: [{extension='package-repository', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration''}]
+2019-06-01 14:47:03,781 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 14:47:03,896 ERROR [Thread-82] PluginInfoBuilder:55 - Failed to fetch Plugin Settings metadata for plugin yum. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 14:47:05,001 INFO  [main] ConsoleActivityMonitor:68 - Found '0' building jobs. Added them with '2019-06-01T14:47:04.932Z' as the last heard time
+2019-06-01 14:47:05,032 INFO  [main] RailsAssetsService:69 - Found rails assets manifest file named .sprockets-manifest-c63f0a89e56e1f88a6255ed24c55be30.json 
+2019-06-01 14:47:05,052 INFO  [main] RailsAssetsService:73 - Successfully read rails assets manifest file located at /go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails/public/assets/.sprockets-manifest-c63f0a89e56e1f88a6255ed24c55be30.json
+2019-06-01 14:47:05,509 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin cd.go.authentication.passwordfile. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 14:47:05,512 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: cd.go.authentication.passwordfile - Metadata load info: [{extension='authorization', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.''}]
+2019-06-01 14:47:05,513 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 14:47:55,493 WARN  [main] DeprecationWarning:43 - Using @Deprecated Class com.thoughtworks.go.server.web.DefaultHeadersFilter
+2019-06-01 14:48:02,023 INFO  [ThreadPoolTaskScheduler-4] GoFileConfigDataSource:145 - Config file changed at 1559400423000
+2019-06-01 14:48:02,025 INFO  [ThreadPoolTaskScheduler-4] GoFileConfigDataSource:146 - Reloading config file: /go-working-dir/config/cruise-config.xml
+2019-06-01 14:48:02,137 INFO  [ThreadPoolTaskScheduler-4] CachedGoConfig:224 - About to notify config listeners
+2019-06-01 14:48:02,151 INFO  [ThreadPoolTaskScheduler-4] BuildAssignmentService:291 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2019-06-01 14:48:02,153 INFO  [ThreadPoolTaskScheduler-4] CachedGoConfig:232 - Finished notifying all listeners
+2019-06-01 15:02:20,213 WARN  [qtp94264799-29] FeatureToggleRepository:70 - Toggles file, /go-working-dir/config/go.feature.toggles does not exist. Saying there are no toggles.
+2019-06-01 15:02:21,128 INFO  [qtp94264799-24] CachedCommandSnippets:57 - [Command Repository] Reloading command snippets.
+2019-06-01 15:02:21,202 INFO  [qtp94264799-33] ServerVersionInfoManager:73 - [Go Update Check] Starting update check at: Sat Jun 01 15:02:21 GMT 2019
+2019-06-01 15:02:22,418 INFO  [qtp94264799-20] ServerVersionInfoManager:88 - [Go Update Check] Update check done at: Sat Jun 01 15:02:22 GMT 2019, latest available version: 19.4.0-9155
+2019-06-01 15:03:39,476 INFO  [main] GoSslSocketConnector:81 - Included ciphers: null
+2019-06-01 15:03:39,485 INFO  [main] GoSslSocketConnector:82 - Excluded ciphers: null
+2019-06-01 15:03:39,486 INFO  [main] GoSslSocketConnector:83 - Included protocols: null
+2019-06-01 15:03:39,487 INFO  [main] GoSslSocketConnector:84 - Excluded protocols: null
+2019-06-01 15:03:39,488 INFO  [main] GoSslSocketConnector:85 - Renegotiation Allowed: true
+2019-06-01 15:03:39,621 INFO  [main] Jetty9Server:211 - Configuring Jetty using /go-working-dir/config/jetty.xml
+2019-06-01 15:03:39,702 INFO  [main] GoServer:93 - Including addons: 
+2019-06-01 15:03:39,704 WARN  [main] Server:352 - ErrorPageMapper not supported for Server level Error Handling
+2019-06-01 15:03:39,813 WARN  [main] config:259 - No Client EndPointIdentificationAlgorithm configured for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,818 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA256 enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,820 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,821 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,822 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,823 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,825 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,826 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,828 WARN  [main] config:279 - Weak cipher suite TLS_DHE_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,829 WARN  [main] config:279 - Weak cipher suite TLS_DHE_DSS_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,830 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA256 enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,831 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,833 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,833 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,834 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,836 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,837 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,838 WARN  [main] config:279 - Weak cipher suite TLS_DHE_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,839 WARN  [main] config:279 - Weak cipher suite TLS_DHE_DSS_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,840 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_GCM_SHA384 enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,842 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_GCM_SHA256 enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:03:39,872 WARN  [main] AbstractHandler:112 - No Server set for ResourceHandler@3d6f0054{STOPPED}
+2019-06-01 15:03:45,679 INFO  [main] H2Database:124 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2019-06-01 15:03:45,682 INFO  [main] H2Database:114 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2019-06-01 15:03:45,690 INFO  [main] DbDeployMigration:51 - Upgrading database at org.apache.commons.dbcp2.BasicDataSource@411cd156. This might take a while depending on the size of the database.
+2019-06-01 15:03:45,698 INFO  [main] DbDeployMigration:60 - ************************************************************************
+2019-06-01 15:03:45,699 INFO  [main] DbDeployMigration:60 - WARNING: Shutting down your server at this point will lead to a database corruption. Please wait until the database upgrade completes.
+2019-06-01 15:03:45,701 INFO  [main] DbDeployMigration:60 - ************************************************************************
+2019-06-01 15:03:45,833 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:03:48,497 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 15:03:48,500 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 15:03:48,645 INFO  [main] H2EventListener:35 - Database is opened
+2019-06-01 15:03:48,691 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:03:48,733 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:03:48,744 INFO  [main] DbDeployMigration:71 - Database upgrade completed.
+2019-06-01 15:03:48,746 INFO  [main] H2EventListener:78 - Closing database
+2019-06-01 15:03:48,789 INFO  [main] H2Database:124 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2019-06-01 15:03:48,790 INFO  [main] H2Database:114 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2019-06-01 15:03:48,794 INFO  [main] DataMigrationRunner:36 - Running data migrations...
+2019-06-01 15:03:48,797 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:03:48,912 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 15:03:48,913 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 15:03:48,945 INFO  [main] H2EventListener:35 - Database is opened
+2019-06-01 15:03:48,949 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:03:49,169 INFO  [main] DataMigrationRunner:53 - Data migration took 5 ms
+2019-06-01 15:03:49,176 INFO  [main] DataMigrationRunner:53 - Data migration took 1 ms
+2019-06-01 15:03:49,177 INFO  [main] DataMigrationRunner:43 - Data migrations completed.
+2019-06-01 15:03:50,535 WARN  [main] ConfigurationFactory:136 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-2.10.6.jar!/ehcache-failsafe.xml
+2019-06-01 15:03:50,654 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.AccessToken]; using defaults.
+2019-06-01 15:03:50,716 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2019-06-01 15:03:50,850 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.UsageStatisticsReporting]; using defaults.
+2019-06-01 15:03:50,862 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2019-06-01 15:03:50,881 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.server.domain.DataSharingSettings]; using defaults.
+2019-06-01 15:03:50,910 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2019-06-01 15:03:50,924 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.EnvironmentVariable]; using defaults.
+2019-06-01 15:03:51,011 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2019-06-01 15:03:51,184 WARN  [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2019-06-01 15:03:51,257 WARN  [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2019-06-01 15:04:01,515 INFO  [main] GoConfigMigration:94 - Upgrading config file from version 123 to version 123
+2019-06-01 15:04:01,619 INFO  [main] GoConfigMigration:102 - Finished upgrading config file
+2019-06-01 15:04:01,623 INFO  [main] GoConfigMigrator:108 - [Config Save] Starting Config Save post upgrade using FullConfigSaveNormalFlow
+2019-06-01 15:04:01,842 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin cd.go.authentication.ldap. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 15:04:01,845 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: cd.go.authentication.ldap - Metadata load info: [{extension='authorization', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.''}]
+2019-06-01 15:04:01,846 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 15:04:02,066 INFO  [main] CachedGoConfig:224 - About to notify config listeners
+2019-06-01 15:04:02,067 INFO  [main] CachedGoConfig:232 - Finished notifying all listeners
+2019-06-01 15:04:02,239 INFO  [main] BuildAssignmentService:291 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2019-06-01 15:04:02,379 INFO  [main] InvalidateAuthenticationOnSecurityConfigChangeFilter:79 - [Configuration Changed] Security Configuration is changed. Updating the last changed time.
+2019-06-01 15:04:02,420 INFO  [main] PipelineRepository:86 - Start updating pipeline timeline
+2019-06-01 15:04:02,473 INFO  [main] PipelineRepository:92 - Pipeline timeline updated
+2019-06-01 15:04:02,475 INFO  [main] PipelineSqlMapDao:143 - Loading active pipelines into memory.
+2019-06-01 15:04:02,475 INFO  [main] PipelineSqlMapDao:411 - Retriving Active Pipelines from Database...
+2019-06-01 15:04:02,500 INFO  [main] PipelineSqlMapDao:145 - Done loading active pipelines into memory.
+2019-06-01 15:04:02,608 INFO  [main] ConsoleActivityMonitor:68 - Found '0' building jobs. Added them with '2019-06-01T15:04:02.510Z' as the last heard time
+2019-06-01 15:04:02,642 INFO  [main] RailsAssetsService:69 - Found rails assets manifest file named .sprockets-manifest-c63f0a89e56e1f88a6255ed24c55be30.json 
+2019-06-01 15:04:02,659 INFO  [main] RailsAssetsService:73 - Successfully read rails assets manifest file located at /go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails/public/assets/.sprockets-manifest-c63f0a89e56e1f88a6255ed24c55be30.json
+2019-06-01 15:04:04,083 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin yum. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 15:04:04,086 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: yum - Metadata load info: [{extension='package-repository', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration''}]
+2019-06-01 15:04:04,088 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 15:04:04,213 ERROR [Thread-82] PluginInfoBuilder:55 - Failed to fetch Plugin Settings metadata for plugin yum. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 15:04:06,039 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin cd.go.authentication.passwordfile. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 15:04:06,042 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: cd.go.authentication.passwordfile - Metadata load info: [{extension='authorization', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.''}]
+2019-06-01 15:04:06,044 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 15:04:25,547 INFO  [main] GoSslSocketConnector:81 - Included ciphers: null
+2019-06-01 15:04:25,560 INFO  [main] GoSslSocketConnector:82 - Excluded ciphers: null
+2019-06-01 15:04:25,560 INFO  [main] GoSslSocketConnector:83 - Included protocols: null
+2019-06-01 15:04:25,561 INFO  [main] GoSslSocketConnector:84 - Excluded protocols: null
+2019-06-01 15:04:25,563 INFO  [main] GoSslSocketConnector:85 - Renegotiation Allowed: true
+2019-06-01 15:04:25,730 INFO  [main] Jetty9Server:211 - Configuring Jetty using /go-working-dir/config/jetty.xml
+2019-06-01 15:04:25,827 INFO  [main] GoServer:93 - Including addons: 
+2019-06-01 15:04:25,828 WARN  [main] Server:352 - ErrorPageMapper not supported for Server level Error Handling
+2019-06-01 15:04:25,950 WARN  [main] config:259 - No Client EndPointIdentificationAlgorithm configured for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,954 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA256 enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,955 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,956 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,957 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,958 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,959 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,960 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,962 WARN  [main] config:279 - Weak cipher suite TLS_DHE_RSA_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,963 WARN  [main] config:279 - Weak cipher suite TLS_DHE_DSS_WITH_AES_256_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,965 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA256 enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,966 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,968 WARN  [main] config:279 - Weak cipher suite TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,969 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,969 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,970 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,972 WARN  [main] config:279 - Weak cipher suite TLS_ECDH_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,972 WARN  [main] config:279 - Weak cipher suite TLS_DHE_RSA_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,973 WARN  [main] config:279 - Weak cipher suite TLS_DHE_DSS_WITH_AES_128_CBC_SHA enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,975 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_256_GCM_SHA384 enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:25,977 WARN  [main] config:279 - Weak cipher suite TLS_RSA_WITH_AES_128_GCM_SHA256 enabled for CustomSslContextFactory@34f5090e[provider=null,keyStore=file:///godata/config/keystore,trustStore=file:///godata/config/truststore]
+2019-06-01 15:04:26,011 WARN  [main] AbstractHandler:112 - No Server set for ResourceHandler@3d6f0054{STOPPED}
+2019-06-01 15:04:32,289 INFO  [main] H2Database:124 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2019-06-01 15:04:32,292 INFO  [main] H2Database:114 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=FALSE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2019-06-01 15:04:32,310 INFO  [main] DbDeployMigration:51 - Upgrading database at org.apache.commons.dbcp2.BasicDataSource@718fd7c1. This might take a while depending on the size of the database.
+2019-06-01 15:04:32,320 INFO  [main] DbDeployMigration:60 - ************************************************************************
+2019-06-01 15:04:32,322 INFO  [main] DbDeployMigration:60 - WARNING: Shutting down your server at this point will lead to a database corruption. Please wait until the database upgrade completes.
+2019-06-01 15:04:32,324 INFO  [main] DbDeployMigration:60 - ************************************************************************
+2019-06-01 15:04:32,468 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:04:35,080 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 15:04:35,083 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 15:04:35,224 INFO  [main] H2EventListener:35 - Database is opened
+2019-06-01 15:04:35,267 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:04:35,309 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:04:35,320 INFO  [main] DbDeployMigration:71 - Database upgrade completed.
+2019-06-01 15:04:35,322 INFO  [main] H2EventListener:78 - Closing database
+2019-06-01 15:04:35,355 INFO  [main] H2Database:124 - [db] Using connection configuration jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener' [User: sa]
+2019-06-01 15:04:35,356 INFO  [main] H2Database:114 - Creating data source with url=jdbc:h2:db/h2db/cruise;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MVCC=TRUE;CACHE_SIZE=131072;TRACE_LEVEL_FILE=1;TRACE_MAX_FILE_SIZE=16;DATABASE_EVENT_LISTENER='com.thoughtworks.go.server.util.H2EventListener'
+2019-06-01 15:04:35,360 INFO  [main] DataMigrationRunner:36 - Running data migrations...
+2019-06-01 15:04:35,363 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:04:35,464 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 15:04:35,466 INFO  [main] H2EventListener:83 - Creating index SYS:SYS_ID 0%
+2019-06-01 15:04:35,509 INFO  [main] H2EventListener:35 - Database is opened
+2019-06-01 15:04:35,528 INFO  [main] H2EventListener:31 - Initializing database: jdbc:h2:db/h2db/cruise
+2019-06-01 15:04:35,775 INFO  [main] DataMigrationRunner:53 - Data migration took 4 ms
+2019-06-01 15:04:35,781 INFO  [main] DataMigrationRunner:53 - Data migration took 0 ms
+2019-06-01 15:04:35,782 INFO  [main] DataMigrationRunner:43 - Data migrations completed.
+2019-06-01 15:04:37,249 WARN  [main] ConfigurationFactory:136 - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/lib/ehcache-2.10.6.jar!/ehcache-failsafe.xml
+2019-06-01 15:04:37,419 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.AccessToken]; using defaults.
+2019-06-01 15:04:37,497 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.NotificationFilter]; using defaults.
+2019-06-01 15:04:37,654 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.UsageStatisticsReporting]; using defaults.
+2019-06-01 15:04:37,664 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User]; using defaults.
+2019-06-01 15:04:37,678 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.server.domain.DataSharingSettings]; using defaults.
+2019-06-01 15:04:37,706 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.Plugin]; using defaults.
+2019-06-01 15:04:37,730 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.EnvironmentVariable]; using defaults.
+2019-06-01 15:04:37,802 WARN  [main] EhCacheProvider:93 - Could not find configuration [com.thoughtworks.go.domain.User.notificationFilters]; using defaults.
+2019-06-01 15:04:37,972 WARN  [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.UpdateTimestampsCache]; using defaults.
+2019-06-01 15:04:38,057 WARN  [main] EhCacheProvider:93 - Could not find configuration [org.hibernate.cache.StandardQueryCache]; using defaults.
+2019-06-01 15:04:46,963 INFO  [main] GoConfigMigration:94 - Upgrading config file from version 123 to version 123
+2019-06-01 15:04:47,030 INFO  [main] GoConfigMigration:102 - Finished upgrading config file
+2019-06-01 15:04:47,033 INFO  [main] GoConfigMigrator:108 - [Config Save] Starting Config Save post upgrade using FullConfigSaveNormalFlow
+2019-06-01 15:04:47,255 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin cd.go.authentication.ldap. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 15:04:47,258 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: cd.go.authentication.ldap - Metadata load info: [{extension='authorization', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.''}]
+2019-06-01 15:04:47,259 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 15:04:47,654 INFO  [main] CachedGoConfig:224 - About to notify config listeners
+2019-06-01 15:04:47,655 INFO  [main] CachedGoConfig:232 - Finished notifying all listeners
+2019-06-01 15:04:47,865 INFO  [main] BuildAssignmentService:291 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2019-06-01 15:04:47,969 INFO  [main] InvalidateAuthenticationOnSecurityConfigChangeFilter:79 - [Configuration Changed] Security Configuration is changed. Updating the last changed time.
+2019-06-01 15:04:48,031 INFO  [main] PipelineRepository:86 - Start updating pipeline timeline
+2019-06-01 15:04:48,094 INFO  [main] PipelineRepository:92 - Pipeline timeline updated
+2019-06-01 15:04:48,095 INFO  [main] PipelineSqlMapDao:143 - Loading active pipelines into memory.
+2019-06-01 15:04:48,096 INFO  [main] PipelineSqlMapDao:411 - Retriving Active Pipelines from Database...
+2019-06-01 15:04:48,133 INFO  [main] PipelineSqlMapDao:145 - Done loading active pipelines into memory.
+2019-06-01 15:04:48,225 INFO  [main] ConsoleActivityMonitor:68 - Found '0' building jobs. Added them with '2019-06-01T15:04:48.142Z' as the last heard time
+2019-06-01 15:04:48,261 INFO  [main] RailsAssetsService:69 - Found rails assets manifest file named .sprockets-manifest-c63f0a89e56e1f88a6255ed24c55be30.json 
+2019-06-01 15:04:48,299 INFO  [main] RailsAssetsService:73 - Successfully read rails assets manifest file located at /go-working-dir/work/jetty-0.0.0.0-8153-cruise.war-_go-any-/webapp/WEB-INF/rails/public/assets/.sprockets-manifest-c63f0a89e56e1f88a6255ed24c55be30.json
+2019-06-01 15:04:49,257 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin yum. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 15:04:49,259 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: yum - Metadata load info: [{extension='package-repository', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '400' and the following response: 'Invalid request name go.plugin-settings.get-configuration''}]
+2019-06-01 15:04:49,261 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 15:04:49,374 ERROR [Thread-82] PluginInfoBuilder:55 - Failed to fetch Plugin Settings metadata for plugin yum. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 15:04:51,091 WARN  [Thread-82] PluginSettingsMetadataLoader:64 - Failed to fetch plugin settings metadata for plugin cd.go.authentication.passwordfile. Maybe the plugin does not implement plugin settings and view?
+2019-06-01 15:04:51,094 WARN  [Thread-82] PluginSettingsMetadataLoader:65 - Plugin: cd.go.authentication.passwordfile - Metadata load info: [{extension='authorization', configuration='null', view='null', error='The plugin sent a response that could not be understood by Go. Plugin returned with code '500' and the following response: 'Request go.plugin-settings.get-configuration is not supported by plugin.''}]
+2019-06-01 15:04:51,095 WARN  [Thread-82] PluginSettingsMetadataLoader:66 - Not all plugins are required to implement the request above. This error may be safe to ignore.
+2019-06-01 15:05:38,627 WARN  [main] DeprecationWarning:43 - Using @Deprecated Class com.thoughtworks.go.server.web.DefaultHeadersFilter
+2019-06-01 15:05:45,190 INFO  [ThreadPoolTaskScheduler-3] GoFileConfigDataSource:145 - Config file changed at 1559401487000
+2019-06-01 15:05:45,192 INFO  [ThreadPoolTaskScheduler-3] GoFileConfigDataSource:146 - Reloading config file: /go-working-dir/config/cruise-config.xml
+2019-06-01 15:05:45,305 INFO  [ThreadPoolTaskScheduler-3] CachedGoConfig:224 - About to notify config listeners
+2019-06-01 15:05:45,321 INFO  [ThreadPoolTaskScheduler-3] BuildAssignmentService:291 - [Configuration Changed] Removing jobs for pipelines that no longer exist in configuration.
+2019-06-01 15:05:45,325 INFO  [ThreadPoolTaskScheduler-3] CachedGoConfig:232 - Finished notifying all listeners
+2019-06-01 15:06:12,978 WARN  [qtp81009902-25] FeatureToggleRepository:70 - Toggles file, /go-working-dir/config/go.feature.toggles does not exist. Saying there are no toggles.
+2019-06-01 15:06:13,874 INFO  [qtp81009902-26] CachedCommandSnippets:57 - [Command Repository] Reloading command snippets.
+2019-06-01 15:50:39,982 WARN  [qtp81009902-29] Rails:-2 - Can't verify CSRF token authenticity.
+2019-06-01 15:50:39,997 ERROR [qtp81009902-29] Rails:-2 -   
+2019-06-01 15:50:40,007 ERROR [qtp81009902-29] Rails:-2 - ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+2019-06-01 15:50:40,009 ERROR [qtp81009902-29] Rails:-2 -   
+2019-06-01 15:50:40,010 ERROR [qtp81009902-29] Rails:-2 - gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:426:in `block in make_lambda'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:179:in `block in halting_and_conditional'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/abstract_controller/callbacks.rb:34:in `block in Callbacks'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:180:in `block in halting_and_conditional'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:513:in `block in invoke_before'
+org/jruby/RubyArray.java:1801:in `each'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:513:in `invoke_before'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:131:in `run_callbacks'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/abstract_controller/callbacks.rb:41:in `process_action'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/rescue.rb:22:in `process_action'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/notifications.rb:168:in `block in instrument'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/notifications.rb:168:in `instrument'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/abstract_controller/base.rb:134:in `process'
+gems/jruby/2.5.0/gems/actionview-5.2.2.1/lib/action_view/rendering.rb:32:in `process'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:191:in `dispatch'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:252:in `dispatch'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+org/jruby/RubyArray.java:1801:in `each'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:35:in `serve'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:840:in `call'
+gems/jruby/2.5.0/gems/versionist-1.7.0/lib/versionist/middleware.rb:39:in `_call'
+gems/jruby/2.5.0/gems/versionist-1.7.0/lib/versionist/middleware.rb:17:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/tempfile_reaper.rb:15:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/etag.rb:25:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/conditional_get.rb:38:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/head.rb:12:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+uri:classloader:/jruby/rack/session_store.rb:79:in `context'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:226:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+gems/jruby/2.5.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+gems/jruby/2.5.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:28:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+gems/jruby/2.5.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+uri:classloader:/rack/handler/servlet.rb:22:in `call'
+2019-06-01 15:51:36,213 INFO  [qtp81009902-14] ServerVersionInfoManager:88 - [Go Update Check] Update check done at: Sat Jun 01 15:51:36 GMT 2019, latest available version: 19.4.0-9155
+2019-06-01 15:52:21,156 WARN  [qtp81009902-14] Rails:-2 - Can't verify CSRF token authenticity.
+2019-06-01 15:52:21,172 ERROR [qtp81009902-14] Rails:-2 -   
+2019-06-01 15:52:21,173 ERROR [qtp81009902-14] Rails:-2 - ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+2019-06-01 15:52:21,176 ERROR [qtp81009902-14] Rails:-2 -   
+2019-06-01 15:52:21,178 ERROR [qtp81009902-14] Rails:-2 - gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/request_forgery_protection.rb:211:in `handle_unverified_request'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/request_forgery_protection.rb:243:in `handle_unverified_request'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/request_forgery_protection.rb:238:in `verify_authenticity_token'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:426:in `block in make_lambda'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:179:in `block in halting_and_conditional'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/abstract_controller/callbacks.rb:34:in `block in Callbacks'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:180:in `block in halting_and_conditional'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:513:in `block in invoke_before'
+org/jruby/RubyArray.java:1801:in `each'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:513:in `invoke_before'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:131:in `run_callbacks'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/abstract_controller/callbacks.rb:41:in `process_action'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/rescue.rb:22:in `process_action'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/notifications.rb:168:in `block in instrument'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/notifications.rb:168:in `instrument'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/abstract_controller/base.rb:134:in `process'
+gems/jruby/2.5.0/gems/actionview-5.2.2.1/lib/action_view/rendering.rb:32:in `process'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:191:in `dispatch'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:252:in `dispatch'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+org/jruby/RubyArray.java:1801:in `each'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:35:in `serve'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:840:in `call'
+gems/jruby/2.5.0/gems/versionist-1.7.0/lib/versionist/middleware.rb:39:in `_call'
+gems/jruby/2.5.0/gems/versionist-1.7.0/lib/versionist/middleware.rb:17:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/tempfile_reaper.rb:15:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/etag.rb:25:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/conditional_get.rb:38:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/head.rb:12:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+uri:classloader:/jruby/rack/session_store.rb:79:in `context'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:226:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+gems/jruby/2.5.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+gems/jruby/2.5.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:28:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+gems/jruby/2.5.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+gems/jruby/2.5.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+gems/jruby/2.5.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+gems/jruby/2.5.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+uri:classloader:/rack/handler/servlet.rb:22:in `call'

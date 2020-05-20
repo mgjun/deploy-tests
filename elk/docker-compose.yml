@@ -1,0 +1,29 @@
+version: "2"
+services:
+  es-test:
+    image: elasticsearch:5.5.0
+    volumes: 
+      - "./data:/usr/share/elasticsearch/data"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+
+  logstash-test:
+    image: logstash:5.5.0
+    volumes:
+      - "./config/logstash/conf.d:/etc/logstash/conf.d"
+      - "./data/logstash/logs:/data/logs"
+    ports: 
+      - "5044:5044"
+  
+  kibana-test:
+    image: kibana:5.5.0
+    ports:
+      - "5601:5601"
+    volumes:
+      - "./config/kibana:/etc/kibana"  
+
+  filebeat-test:
+    image: docker.elastic.co/beats/filebeat:5.5.0
+    volumes:
+      - "./config/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml"

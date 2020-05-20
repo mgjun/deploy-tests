@@ -1,0 +1,19 @@
+version: "2"
+services:
+  gocd-server:
+    image: gocd/gocd-server:v19.4.0
+    ports:
+      - "8153:8153"
+      - "8154:8154"
+    volumes:
+      - "./godata:/godata"
+      - "./home-dir:/home/go"  
+      - "./scripts:/docker-entrypoint.d"
+    # environment:
+      # - GO_SERVER_SYSTEM_PROPERTIES="-Xmx4096mb -Dfoo=bar"
+  gocd-client:
+    image: gocd/gocd-agent-centos-7:v19.4.0
+    links:
+      - gocd-server
+    environment:
+      - GO_SERVER_URL=https://localhost:8154/go

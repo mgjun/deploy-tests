@@ -1,0 +1,37 @@
+version: "3"
+services:
+    mongodb:
+        image: mongo
+        volumes:
+            - ${MONGODB_DATABASE_VOLUME}
+        container_name: mongodb
+        ports:
+            - "27017:27017"
+    rabbit:
+        image: rabbitmq:3-management
+        ports:
+            - "5672:5672"
+            - "4369:4369"
+            - "5671:5671"
+            - "25672:25672"
+            - "15672:15672"
+        container_name: rabbitmq
+        hostname: my-rabbitmq
+        volumes:
+            - ${RABBITMQ_DATA_VOLUME}
+    postgres:
+        image: postgres
+        ports:
+            - "5432:5432"
+        container_name: postgres
+        volumes:
+            - ${POSTGRESQL_DATA_VOLUME}
+ 
+    mssql:
+        image: microsoft/mssql-server-linux:2017-latest
+        ports:
+            - "1433:1433"
+        container_name: mssql
+        environment:
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=G1veMeP@ss

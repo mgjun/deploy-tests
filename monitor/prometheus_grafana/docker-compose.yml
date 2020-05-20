@@ -1,0 +1,32 @@
+version: '2'
+services:
+    promotheus:
+        container_name: promotheus
+        image: prom/prometheus:latest
+        volumes: 
+            - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+        ports:
+            - "9090:9090"
+        restart: on-failure
+    node-exporter:
+        image: quay.io/prometheus/node-exporter
+        container_name: node-exporter
+        restart: unless-stopped
+        ports:
+            - '9100:9100'
+        command:
+            - '--path.procfs=/host/proc'
+            - '--path.sysfs=/host/sys'
+            - '--collector.filesystem.ignored-mount-points=^/(sys|proc|dev|host|etc)($$|/)'
+            - '--collector.textfile.directory=/node_exporter/prom'
+        volumes:
+            - /proc:/host/proc
+            - /sys:/host/sys
+            - /:/rootfs
+            - ./etc/node_exporter/prom:/node_exporter/prom
+    grafana:
+        container_name: grafana
+        image: grafana/grafana:latest
+        ports:
+            - 3000:3000
+        restart: on-failure
